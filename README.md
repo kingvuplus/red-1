@@ -1,4 +1,4 @@
-Openbh gui
+BlackHole gui Based OpenAtv
 
 # Building Instructions #
 
@@ -10,4 +10,4 @@ Openbh gui
     
     make
 
-    MACHINE=vusolo4k DISTRO=openbh make image
+    MACHINE=vusolo2 DISTRO=blackhole make image
