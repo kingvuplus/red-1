@@ -11,7 +11,16 @@ dist_install_DATA = \
 	LiberationSans-Bold.ttf \
 	LiberationSans-BoldItalic.ttf \
 	LiberationSans-Italic.ttf \
-	LiberationSans-Regular.ttf
+	LiberationSans-Regular.ttf \
+        Army_Bold_G.ttf \
+        army-digital.ttf \
+        Army_Regular_L.ttf \
+        ForgottenFuturistShadow.ttf \ 
+        nmsbd2.ttf \
+        time.ttf \
+        tiny.ttf \
+        titles.ttf \
+        goodtime.ttf
 
 if VUULTIMO
 dist_install_DATA += analog.ttf MyriadPro-Regular.otf MyriadPro-Semibold.otf MyriadPro-SemiboldIt.otf
@@ -19,10 +28,6 @@ endif
 
 if VUDUO2
 dist_install_DATA += analog.ttf MyriadPro-Regular.otf MyriadPro-Semibold.otf MyriadPro-SemiboldIt.otf
-endif
-
-if VUSOLO2
-dist_install_DATA += Army_Bold_G.ttf army-digital.ttf Army_Regular_L.ttf ForgottenFuturistShadow.ttf nmsbd2.ttf time.ttf tiny.ttf titles.ttf goodtime.ttf 
 endif
 
 if ET10000
