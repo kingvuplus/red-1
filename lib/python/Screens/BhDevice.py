@@ -33,6 +33,7 @@ class DeliteDevicesPanel(Screen):
 
     def gO(self):
         paths = ['/media/hdd',
+         '/media/universe',
          '/media/usb',
          '/media/downloads',
          '/media/music',
