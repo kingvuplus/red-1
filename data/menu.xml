@@ -206,7 +206,6 @@ self.session.open(HdmiCECSetupScreen)
 from Plugins.SystemPlugins.SoftwareManager.ImageBackup import ImageBackup
 self.session.open(ImageBackup)
 </code>-->
-		</item>	
 	</menu>
 	<!-- Menu / BH Apps -->
 	<item weight="3" level="0" text="Black Hole Apps" entryID="blackhole_extra"><screen module="BhSettings" screen="DeliteSettings" /></item>
