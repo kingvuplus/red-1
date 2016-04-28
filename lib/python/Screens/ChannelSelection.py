@@ -23,7 +23,7 @@ from enigma import eActionMap, eServiceReference, eEPGCache, eServiceCenter, eRC
 from Components.config import config, configfile, ConfigSubsection, ConfigText, ConfigYesNo
 from Tools.NumericalTextInput import NumericalTextInput
 #Blackhole
-from Blackhole.BhEpgSearch import Nab_EpgSearch, Nab_EpgSearchLast
+from Screens.BhEpgSearch import Nab_EpgSearch, Nab_EpgSearchLast
 profile("ChannelSelection.py 2")
 from Components.NimManager import nimmanager
 profile("ChannelSelection.py 2.1")
