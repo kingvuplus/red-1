@@ -8,7 +8,7 @@ from Components.PluginComponent import plugins
 from Components.ServiceEventTracker import ServiceEventTracker
 from Components.Sources.Boolean import Boolean
 from Components.Sources.List import List
-from Components.config import config, configfile, ConfigBoolean, ConfigClock
+from Components.config import config, configfile, ConfigBoolean, ConfigClock, ConfigInteger
 from Components.SystemInfo import SystemInfo
 from Components.UsageConfig import preferredInstantRecordPath, defaultMoviePath, preferredTimerPath, ConfigSelection
 from Components.VolumeControl import VolumeControl
@@ -43,7 +43,7 @@ from RecordTimer import RecordTimer, RecordTimerEntry, parseEvent, AFTEREVENT, f
 from Screens.TimerEntry import TimerEntry as TimerEntry
 
 #Blackhole
-from Blackhole.BhEI import Nab_ExtraInfobar, nab_Switch_Autocam
+from Screens.BhEI import Nab_ExtraInfobar, nab_Switch_Autocam
 
 from Tools import Directories, Notifications
 from Tools.Directories import pathExists, fileExists, getRecordingFilename, copyfile, moveFiles, resolveFilename, SCOPE_TIMESHIFT, SCOPE_CURRENT_SKIN
