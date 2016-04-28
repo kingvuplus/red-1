@@ -7,6 +7,13 @@ import os, random
 
 class Screensaver(Screen):
 	def __init__(self, session):
+
+		self.skin = """
+			<screen name="Screensaver" position="fill" flags="wfNoBorder">
+				<eLabel position="fill" backgroundColor="#54000000" zPosition="0"/>
+				<widget name="picture" pixmap="skin_default/screensaverpicture.png" position="0,0" size="119,139" alphatest="blend" transparent="1" zPosition="1"/>
+			</screen>"""
+
 		Screen.__init__(self, session)
 
 		self.moveLogoTimer = eTimer()
@@ -47,4 +54,4 @@ class Screensaver(Screen):
 		self.posx = random.randint(1,self.maxx)
 		self.posy = random.randint(1,self.maxy)
 		self["picture"].instance.move(ePoint(self.posx, self.posy))
-		self.moveLogoTimer.startLongTimer(9)
+		self.moveLogoTimer.startLongTimer(5)
