@@ -1136,7 +1136,8 @@ class InfoBarNumberZap:
 		# 	InfoBarTimeshift.saveTimeshiftActions(self)
 		# 	return
 
-		if isinstance(self, InfoBarPiP) and self.pipHandles0Action():
+                if number == 0:
+		        if isinstance(self, InfoBarPiP) and self.pipHandles0Action():
 				self.pipDoHandle0Action()
 			else:
 #Blackhole
